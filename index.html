@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+    <!-- Google Fonts -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="">
+  <main class="flex justify-center items-center bg-veryDarkBlue w-full h-full py-8 px-6 md:h-screen">
+    <div class="container overflow-hidden bg-darkBlue flex flex-col items-center rounded-lg md:flex-row-reverse md:justify-between md:gap-16">
+      <div class="relative">
+        <img src="images/image-header-desktop.jpg" class=" alt="">
+        <div class="absolute top-0 right-0 left-0 bottom-0 bg-softViolet opacity-30"></div>
+      </div>
+      <div class="flex flex-col items-center justify-center gap-4 max-w-xs mx-auto py-8 md:max-w-2xl md:items-start">
+        <h3 class="text-3xl tracking-wider text-white text-center font-bold md:text-left md:max-w-md md:text-4xl">Get <span class="text-softViolet">insights</span> that help your business grow.</h3>
+        <p class="font-inter text-sm text-center text-slightWhite tracking-wide leading-6 px-8 md:text-left md:px-0 md:max-w-sm">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="flex flex-col items-center gap-6 mt-6 md:flex-row md:space-x-14">
+          <div class="flex flex-col items-center gap-1">
+            <p class="text-white text-2xl font-inter font-bold">10k+</p>
+            <p class="text-slightWhite2 text-sans uppercase text-sm tracking-wider">companies</p>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <p class="text-white text-2xl font-inter font-bold">314</p>
+            <p class="text-slightWhite2 text-sans uppercase text-sm tracking-wider">Templates</p>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <p class="text-white text-2xl font-inter font-bold">12M+</p>
+            <p class="text-slightWhite2 text-sans uppercase text-sm tracking-wider">Queries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution h-8 bg-veryDarkBlue text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="emailto:aymendiabi@gmail.com">Aymen</a>.
+  </div>
+</body>
+</html>
